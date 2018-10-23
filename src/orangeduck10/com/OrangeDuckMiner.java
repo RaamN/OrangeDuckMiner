@@ -18,7 +18,7 @@ import java.util.concurrent.Callable;
 
 
 /**
- * Created by cbartram on 7/6/2016.
+ * Created by RaamN on 7/6/2016.
  *
  */
 @Script.Manifest(name = "AeroEssence", properties = "author=orangeduck10; topic=1296203; client=4;", description = "Intelligent East Varrock Rune Essence Miner.")
