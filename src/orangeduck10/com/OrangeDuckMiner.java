@@ -160,8 +160,7 @@ public class OrangeDuck1Miner extends PollingScript<ClientContext> implements Pa
                     ctx.bank.close();
                     essenceMined += 27;
                 }
-
-                    break;
+                break;
 
             case TRAVERSE:
                 status = "Walking to Aubury";
@@ -173,7 +172,6 @@ public class OrangeDuck1Miner extends PollingScript<ClientContext> implements Pa
                         return !ctx.players.local().inMotion();
                     }
                 }, 2500, 10);
-
                 break;
 
             case TELEPORT:
@@ -209,7 +207,6 @@ public class OrangeDuck1Miner extends PollingScript<ClientContext> implements Pa
                     ctx.camera.pitch(Random.nextInt(0, 50));
                     essence.interact("Mine");
                 }
-
                 break;
 
             case REVERSE:
@@ -244,7 +241,6 @@ public class OrangeDuck1Miner extends PollingScript<ClientContext> implements Pa
                 break;
         }
     }
-
 
     @Override
     public void repaint(Graphics graphics) {
